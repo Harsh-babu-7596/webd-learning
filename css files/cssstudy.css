@@ -1,0 +1,9 @@
+/* there are 3 typ of css
+inline directly into HTML but not very recommended
+internal using style tags within signle document
+external linking any external css file(highly recommended)
+*/
+
+h2 {
+    color: blueviolet;
+}

@@ -1,0 +1,94 @@
+/* css flexbox is an addon to the traditional css stuff
+
+a layout model that provides an easy way to arrange items in a container
+
+ithere are no floats responsive and friendly and postioning is easy and order 
+of elements without changing HTML code as we know it*/
+
+
+/* the comcnepts to  flexbox is directionally agnostic not horizontal or verticle  */
+
+
+/* the diagram looks simple as we know it there is a container and inside there are items amnd there are aces that are main as c acis and cross end as y axis */
+
+
+/* moving into arguments
+display: flex or inline-flex used for showing a box
+flex-directon for direction
+flix-wrap for window size
+flex-basis is same width
+justify-content aor alignment can be seen in image*/
+
+
+/* and many other functions based on the image as */
+
+
+/* 
+* {
+    background-image: url(./material\ functions\ in\ flxbox.png);
+} */
+
+
+/* moving to code starting with the HTML file provided in this code*/
+
+@media(min-width:768px) {
+    .container-1 {
+        display: flex;
+        /* basically used for alignment */
+        /* align-items: flex-end;
+        align-items: flex-start;
+        align-items: center; */
+        /* flex-direction: column; */
+    }
+    .container-2 {
+        display: flex;
+        /* justify-content: space-around; */
+        justify-content: space-between;
+    }
+}
+
+.container-1 div,
+.container-2 div,
+.container-3 div {
+    border: black solid 1px;
+    padding: 10px;
+    margin: 3px;
+}
+
+.box1 {
+    flex: 2;
+    order: 2;
+    background: whitesmoke;
+}
+
+.box2 {
+    flex: 1;
+    order: 1;
+    background-color: whitesmoke;
+}
+
+.box3 {
+    flex: 1;
+    order: 3s;
+    background-color: whitesmoke;
+}
+
+.boxc2 {
+    flex-basis: 25%;
+}
+
+
+/* flex basis is another way to do it */
+
+
+/* then studied about media */
+
+
+/* now going for wrapping
+ */
+
+.container-3 div {
+    display: flex;
+    flex-wrap: wrap;
+    /* nothing it just wrap the content around the screen */
+}

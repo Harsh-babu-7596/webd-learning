@@ -1,0 +1,249 @@
+/* there are 3 typ of css
+inline directly into HTML but not very recommended
+internal using style tags within signle document
+external linking any external css file(highly recommended)
+*/
+
+.clr {
+    clear: both
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+/* p {} */
+
+body {
+    /* background-color: aqua; */
+    color: #555;
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500; */
+    /*tells about the boldness etc*/
+    /* another way inline-size: ; */
+    font: normal 12px Arial;
+    /* we can also set the line height as */
+    line-height: 30px;
+    margin: 0;
+}
+
+.category {
+    border-radius: 15px;
+}
+
+.material {
+    margin: auto;
+    width: 80%
+}
+
+a:hover {
+    color: red;
+}
+
+
+/* a.visited {} */
+
+a.active {
+    color: aquamarine;
+}
+
+
+/* .material {
+    padding: 0;
+    /* left-s:square; */
+
+
+/* } */
+
+.category {
+    width: 80%;
+    margin: auto;
+}
+
+.category li {
+    padding-bottom: 8px;
+    border-bottom: dotted 1px black;
+    list-style-image: url('../images/check.png');
+}
+
+.container {
+    width: 80%;
+    /* that percentage is how it works now talking about margin and adding the diagram was clear */
+    margin: auto;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form .formgroup {
+    padding-bottom: 15px;
+}
+
+.form label {
+    display: label;
+    /* width: 40% ; */
+}
+
+
+/* the ids are pointed by the number sign  */
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: grey;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.form button {
+    background-color: aqua
+}
+
+.form input[type="text"],
+.form button {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.p-box h1 {
+    position: relative;
+    top: 40px;
+}
+
+
+/* mow moving towards the forms */
+
+
+/* .category li {} */
+
+
+/* order is padding border margin and the content is wrapped around the centre the margin is also
+
+just to remember padding is the width inside and border is outside*/
+
+
+/* for simple is trbl we can write as margin: top right bottom left or we can give one along all sides or  1 1 allong each side*/
+
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* this above thing works as reset and its good */
+
+.box-1 {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: #fff;
+    /* border-right: 5px red solid; */
+    /* padding-right: 5px red; */
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px 0;
+}
+
+
+/* the 2nd 0 is for right and left as mentioned earlier */
+
+
+/* border can be colored padding cannot be */
+
+
+/* the solid is style it can also be dotted rest of the slides can be dealt wi */
+
+
+/* these things work similarly */
+
+
+/* now after i include into a class into a div and div acts as a block */
+
+
+/* now the talk is about positioning in css there are certain parts to it
+static means to default renders default in order to doc flow
+relative is relative to original position as in static
+absolute allows to target the specific position inside of a relative position
+fixed is with the browser
+initial sets the property to its default value 
+inherit is just work as parent stuff
+*/
+
+.p-box {
+    width: 60%;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('images/check.jpg');
+    /* background-position: 100px 200px; */
+    background-position: center center;
+    background-repeat: no;
+}
+
+.p-box h1 {
+    left: 50px;
+    position: relative;
+}
+
+.fix-me-button {
+    position: fixed;
+    align-self: auto;
+    background-color: black;
+    top: 40px;
+}
+
+
+/* basically absolute is with respect to the original html document other is not */
+
+
+/* about the relative its in the same block */
+
+
+/* now its about pseudo classes */
+
+.mylist li:first-child {
+    background: red;
+}
+
+.mylist li:last-child {
+    background: blue;
+}
+
+.mylist li:nth-child(5) {
+    background: yellow;
+}
+
+.mylist li:nth-child(even) {
+    background: gray;
+}
+
+
+/* all unique stuff that is non clonabel is given an id and the rest is not */
+
+
+/* and all of these can be included into the HTML  basic structure w'll see it once we move upto the website as classic as it is */

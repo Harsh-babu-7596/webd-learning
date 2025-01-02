@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Playground</title>
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        header {
+            background: linear-gradient(45deg, #ff7e5f, #feb47b);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .box {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        
+        .box:hover {
+            transform: scale(1.1);
+            background-color: #ffc107;
+        }
+        
+        .box-1 {
+            background: #4caf50;
+            color: white;
+        }
+        
+        .box-2 {
+            background: #2196f3;
+            color: white;
+        }
+        
+        .box-3 {
+            background: #f44336;
+            color: white;
+        }
+        
+        footer {
+            margin-top: auto;
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        @media (max-width: 600px) {
+            .box {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- this was done for all h1 headings we can also do it for an ID that is done later-->
+</head>
+
+<body>
+    <!-- the above done was still internal but seperate now it is not inline -->
+    <!-- <h1 style="color: red;">Hello world</h1> -->
+    <!-- the above it is inline -->
+    <div class="container">
+        <!-- <div class="box-1"> -->
+        <!--this can be reeadted wereas IDs are unique-->
+        <!-- <h1>material stuff</h1> -->
+        <!-- <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur sint labore officiis cumque necessitatibus maxime laudantium vero dolores in facilis odio, temporibus, deserunt aut perferendis impedit tempore corrupti voluptatum nulla?</h3> -->
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque minima explicabo impedit iste, fugit consequatur perspiciatis molestiae neque. Unde accusantium repellendus quam modi sint mollitia! </p> -->
+
+        <!-- </div> -->
+        <!-- </div> -->
+
+        <!-- <div class="container">
+        <div class="box-2"> -->
+        <!--this can be reeadted wereas IDs are unique-->
+        <!-- <h1>material stuff</h1> -->
+        <!-- <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur sint labore officiis cumque necessitatibus maxime laudantium vero dolores in facilis odio, temporibus, deserunt aut perferendis impedit tempore corrupti voluptatum nulla?</h3> -->
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque minima explicabo impedit iste, fugit consequatur perspiciatis molestiae neque. Unde accusantium repellendus quam modi sint mollitia! </p> -->
+
+        <!-- </div>
+    </div> -->
+        <!-- <div class="material"> -->
+        <!-- <div class="category">
+            <ul>
+                <li><a href="#">
+                category 1
+            </a></li>
+                <li><a href="#">
+                category 4
+            </a></li>
+                <li><a href="#">
+                category 3
+            </a></li>
+                <li><a href="#">
+                category 2
+            </a></li>
+            </ul>
+            </div>
+        </div> -->
+        <!-- so its quite easy we can set dic objects ad we are good -->
+        <div>
+            <form class="form" id="addEngineerForm">
+                <div class="formgroup">
+                    <label>Name </label><input type="text" id="engineerName" placeholder="Engineer Name" required>
+                </div>
+                <div class="formgroup">
+                    <label>email</label><input type="text" id="engineerEmail" placeholder="Engineer Email" required>
+                </div>
+                <div class="formgroup">
+                    <label>phone </label><input type="text" id="engineerPhone" placeholder="Engineer Phone" required>
+                </div>
+                <div class="formgroup">
+                    <button type="submit">Add Engineer</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel fugit molestias consequuntur rem sunt accusantium ipsum dolores qui error!</p>
+        </div>
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel fugit molestias consequuntur rem sunt accusantium ipsum dolores qui error!</p>
+        </div>
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel fugit molestias consequuntur rem sunt accusantium ipsum dolores qui error!</p>
+
+        </div>
+        <div class="clr"></div>
+        <div id="main-block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel fugit molestias consequuntur rem sunt accusantium ipsum dolores qui error!</p>
+        </div>
+
+        <div id="sidebar">
+            <!-- <h3>Heading</h3> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel fugit molestias consequuntur rem sunt accusantium ipsum dolores qui error!</p>
+        </div>
+        <!-- <div id="sidebar"></div> -->
+        <div class="p-box">
+            <h1>Hello</h1>
+            <h2>goodbye</h2>
+        </div>
+    </div>
+    <!-- last to be considered -->
+    <div style="margin-top: 200px;">
+        <div class="mylist">
+            <ul>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <a class="fix-me-button" href="">hello</a>
+
+
+
+
+
+    <!-- <header>
+        
+        p
+        <h1>CSS Testing Playground</h1>
+    </header>
+    <div class="container">
+        <div class="box box-1">Box 1</div>
+        <div class="box box-2">Box 2</div>
+        <div class="box box-3">Box 3</div>
+    </div> -->
+    <!-- <footer>
+        <p>Test Your CSS Knowledge!</p>
+    </footer> -->
+</body>
+
+</html>
