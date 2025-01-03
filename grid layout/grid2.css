@@ -1,0 +1,58 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    /* justify-items: center; */
+    /* align-items: stretch; */
+}
+
+.wrapper div {
+    background: #eee;
+    padding: 1em;
+}
+
+.wrapper div:nth-child(odd) {
+    background: #ddd;
+}
+
+.box1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+
+/* align-self: start;
+}
+
+*/
+
+.box2 {
+    /* align-self: end; */
+    grid-column: 3;
+    grid-row: 1/3;
+}
+
+.box3 {
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+.box4 {
+    grid-column: 1;
+    grid-row: 2/4;
+    border: black solid 1px;
+    /* this slash notation tells from which row we are starting and until which notation wr are going so its quite of a good thing */
+}
+
+
+/*
+
+.box3 {
+    justify-self: end;
+}
+
+.box4 {} */
+
+
+/* now talking about using lines */
