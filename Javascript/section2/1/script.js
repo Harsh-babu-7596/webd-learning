@@ -29,6 +29,8 @@ fruits[3] = 'strawberry';
 fruits[fruits.length] = 'blueberry';
 fruits[fruits.length] = 'peach';
 
+// push does the same thing
+
 x = fruits;
 
 console.log(x);
