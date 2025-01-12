@@ -1,13 +1,34 @@
-const div = document.createElement('div');
-div.className = 'my-element';
-div.id = 'my-element';
-div.setAttribute('title', 'My Element');
+const item = document.createElement('div')
 
-// div.innerText = 'Hello World';
+item.className = 'item-class'
 
-const text = document.createTextNode('Hello World');
-div.appendChild(text);
+item.setAttribute('title', 'myelement') //used for adding any attribute in any TML tag
 
-// document.body.appendChild(div);
+item.innerText = "kaka kaka"
 
-document.querySelector('ul').appendChild(div);
+// till now its just a blank nodes
+
+
+const text = document.createTextNode('bol-kake');
+
+item.appendChild(text);
+document.body.querySelector('.form-control').appendChild(item);
+// document.querySelector('ul').appendChild(item);
+console.log(item);
+
+
+
+
+// const div = document.createElement('div');
+// div.className = 'my-element';
+// div.id = 'my-element';
+// div.setAttribute('title', 'My Element');
+
+// // div.innerText = 'Hello World';
+
+// const text = document.createTextNode('Hello World');
+// div.appendChild(text);
+
+// // document.body.appendChild(div);
+
+// document.querySelector('ul').appendChild(div);

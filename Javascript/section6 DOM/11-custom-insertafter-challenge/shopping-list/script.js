@@ -1,5 +1,5 @@
-function insertAfter(newEl, existingEl) {
-  existingEl.parentElement.insertBefore(newEl, existingEl.nextSibling);
+function insertAfter(newEl, eEle) {
+    eEle.parentElement.insertBefore(newEl, eEle.nextSibling);
 }
 
 // New element to insert
