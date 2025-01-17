@@ -16,12 +16,12 @@ body {
 .bg {
     background: url(./images/infinity.png) no-repeat center center/cover;
     position: absolute;
-    top: -30px;
-    left: -30px;
-    width: calc(100vw+60px);
-    height: calc(100vh+60px);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     z-index: -1;
-    filter: blur(0px);
+    filter: blur(30px);
 }
 
 .loading-text {
